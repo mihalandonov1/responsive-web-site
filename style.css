@@ -1281,6 +1281,10 @@ height: 10px;
   font-family: Helvetica-Neue;
 }
 
+#img2-footer {
+  display: none;
+}
+
 
 
 @media screen and (min-width: 400px) and (max-width: 768px) {
@@ -1307,10 +1311,18 @@ height: 10px;
   line-height: 12px;
   }
 
-  #footer-icon img {
-    width: 100px;
-    height: 100px;
+  #footer-icon {
+    justify-content: center;
+    display: flex;
   }
 
+  #img1-footer {
+    display: none;
+  }
+
+  #img2-footer {
+    display: flex;
+    width: 50px;
+  } 
   
 }
